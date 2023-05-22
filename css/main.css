@@ -1,0 +1,135 @@
+body {
+    background-color: #e4dcff;
+}
+
+#header-main {
+    height: 5vw;
+    background-color: #6e44ff;
+    color: white;
+}
+
+#leader-div {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+#toppers {
+    height: 15vw;
+    background-color: #6e44ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+}
+
+.topper {
+    flex-direction: row;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+#rank2 {
+    margin-left: 15vw;
+}
+
+#rank3 {
+    margin-right: 15vw;
+}
+
+.num {
+    height: 1.5vw;
+    width: 1.5vw;
+    border: solid white 0.2vw;
+    border-radius: 50%;
+    background-color: #cabbff;
+    display: inline-block;
+    flex-direction: column;
+    position: relative;
+    margin-left: 3.5vw;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+#num1 {
+    margin-left: 4.5vw;
+}
+
+#circle2 {
+    height: 9vw;
+    width: 9vw;
+    border: solid white 0.3vw;
+    border-radius: 50%;
+    background-color: #cabbff;
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+
+#circle1 {
+    height: 11vw;
+    width: 11vw;
+    border: solid white 0.4vw;
+    border-radius: 50%;
+    background-color: #cabbff;
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 0.2vw;
+}
+
+#circle3 {
+    height: 9vw;
+    width: 9vw;
+    border: solid white 0.3vw;
+    border-radius: 50%;
+    background-color: #cabbff;
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 1vw;
+}
+
+#rest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ranks {
+    height: 10vh;
+    width: 100%;
+    background-color: #d1c4ff;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.val {
+    margin-left: 4vw;
+    font-size: 1.7vw;
+}
+
+.circle {
+    margin-left: 4vw;
+    height: 2.3vw;
+    width: 2.3vw;
+    border: solid white 0.2vw;
+    border-radius: 50%;
+    background-color: #cabbff;
+    display: inline-block;
+}
+
+.name {
+    margin-left: 4vw;
+    font-size: 1.7vw;
+}
+
+.score {
+    position: absolute;
+    font-size: 1.7vw;
+    margin-left: 70vw;
+}
