@@ -16,7 +16,7 @@ body {
 }
 
 #toppers {
-    height: 15vw;
+    height: 16vw;
     background-color: #6e44ff;
     display: flex;
     flex-direction: row;
@@ -96,10 +96,11 @@ body {
 
 .nametop {
     display: inline-block;
+    height: 3.5vh;
     background-color: #cabbff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.4vh;
-    border-radius: 30%;
+    border-radius: 9%/50%;
     text-align: center;
     margin-top: 1vh;
 }
